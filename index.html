@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Checkout Form</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body style="background-color: rgb(237,236,236);">
+    <div class="container" style="margin-top: 50px;margin-bottom: 50px;">
+        <h1 class="text-center">Checkout Form</h1>
+        <p class="text-center" style="padding-right: 100px;padding-left: 100px;font-size: 20px;color: rgb(76,76,77);font-weight: 300;">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+        <div class="row" style="padding-left: 50px;padding-right: 50px;margin-top: 50px;">
+            <div class="col-md-8">
+                <form>
+                    <div class="form-row">
+                        <div class="col">
+                            <h4 style="color: rgb(0,0,0);">Customer Detail</h4>
+                        </div>
+                    </div>
+                    <div class="form-row" style="margin-bottom: 20px;margin-top: 20px;">
+                        <div class="col"><label>Firstname</label><input class="form-control" type="text" placeholder="Enter Firstname"></div>
+                        <div class="col"><label>Lastname</label><input class="form-control" type="text" placeholder="Enter Lastname"></div>
+                    </div>
+                    <div class="form-row" style="margin-bottom: 20px;">
+                        <div class="col"><label>Email</label><input class="form-control" type="text" placeholder="Enter Email"></div>
+                        <div class="col"><label>Phone Number</label><input class="form-control" type="text" placeholder="Enter Phone Number"></div>
+                    </div>
+                    <div class="form-row" style="margin-bottom: 20px;">
+                        <div class="col"><label>IC or Passport</label><input class="form-control" type="text" placeholder="Enter Identitiy Card"></div>
+                        <div class="col"><label>Gender</label><select class="form-control"><option value="undefined" selected="">-- Select Gender --</option><option value="Male">Male</option><option value="Female">Female</option></select></div>
+                    </div>
+                </form>
+                <hr>
+                <h5 style="color: rgb(3,3,3);">Payment</h5>
+                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Credit/Debit Card</label></div>
+                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-1"><label class="form-check-label" for="formCheck-1">FPX Payment</label></div>
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-md-6">
+                        <div class="form-group"><label>Name on card</label><input type="text" class="form-control" placeholder="Enter Full Name"><small class="form-text text-muted">Fullname as displayed on card.</small></div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group"><label>Card Number</label><input type="text" class="form-control" placeholder="Card Number Here"></div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-md-3">
+                        <div class="form-group"><label>Expiration</label><input type="text" class="form-control" placeholder="MM/YY"></div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group"><label>CVV</label><input type="text" class="form-control" placeholder="123"></div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-md-12">
+                        <hr><button class="btn btn-primary btn-lg btn-block" type="button" style="margin-bottom: 30px;">Continue To Checkout</button></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h4 style="color: rgb(139,139,139);">Your cart</h4>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <h6>Product A</h6><small class="form-text text-muted">Help text for a form field.</small></li>
+                    <li class="list-group-item" style="background-color: rgb(227,65,65);">
+                        <h6 class="text-light">Heading</h6><small class="form-text text-light">Help text for a form field.</small></li>
+                    <li class="list-group-item"><span>Total (MYR )&nbsp;</span><span class="text-right" style="margin-left: 120px;font-weight: bold;">RM 80</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
